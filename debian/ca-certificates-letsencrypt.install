@@ -1,1 +1,1 @@
-usr/local/share/ca-certificates/LetsEncrypt*
+*.crt usr/local/share/ca-certificates/
