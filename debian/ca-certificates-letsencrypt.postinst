@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+    configure|reconfigure)
+        update-ca-certificates
+        ;;
+    *) 
+        ;;
+esac

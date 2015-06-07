@@ -1,0 +1,5 @@
+ca-certificates-letsencrypt (2015.06.07.1) unstable; urgency=low
+
+  * Initial version of the package.
+  
+ -- Mathias Ertl <mati@fsinf.at>  Sun, 07 Jun 2015 12:25:34 +0200

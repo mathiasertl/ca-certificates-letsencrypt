@@ -1,0 +1,15 @@
+Source: ca-certificates-letsencrypt
+Section: misc
+Priority: optional
+Maintainer: Mathias Ertl <mati@fsinf.at>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/mathiasertl/ca-certificates-letsencrypt
+Vcs-Browser: https://github.com/mathiasertl/ca-certificates-letsencrypt
+Vcs-Git: https://github.com/mathiasertl/ca-certificates-letsencrypt.git
+
+Package: ca-certificates-letsencrypt
+Architecture: all
+Depends: ${misc:Depends}
+Description: Certificates for LetsEncrypt
+ This package installs all LetsEncrypt certificates.

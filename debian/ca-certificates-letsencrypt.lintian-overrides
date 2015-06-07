@@ -1,0 +1,6 @@
+ca-certificates-letsencrypt: dir-in-usr-local usr/local/share/
+ca-certificates-letsencrypt: dir-in-usr-local usr/local/share/ca-certificates/
+ca-certificates-letsencrypt: file-in-usr-local usr/local/share/ca-certificates/LetsEncrypt_x1.crt
+ca-certificates-letsencrypt: file-in-unusual-dir usr/local/share/ca-certificates/LetsEncrypt_x1.crt
+ca-certificates-letsencrypt: file-in-usr-local usr/local/share/ca-certificates/LetsEncrypt_x2.crt
+ca-certificates-letsencrypt: file-in-unusual-dir usr/local/share/ca-certificates/LetsEncrypt_x2.crt
